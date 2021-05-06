@@ -1,8 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+#Install JSON Server
+npm install -g json-server
+#Start JSON Server
+json-server --watch data/db.json
 
 In the project directory, you can run:
 
