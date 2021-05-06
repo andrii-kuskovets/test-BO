@@ -1,0 +1,25 @@
+@import '../../assets/scss/base/_variables.scss';
+.dashboard {
+  position: relative;
+
+  &__empty-list {
+	font-size: 28px;
+	text-align: center;
+	margin: 20px 0;
+	font-weight: 500;
+	color: $secondary;
+  }
+
+  &__btn {
+	position: absolute;
+	right: 0;
+	top: -50px;
+  }
+}
+
+.loading {
+  text-align: center;
+  color: tomato;
+  font-size: 18px;
+  font-weight: 500;
+}

@@ -1,0 +1,86 @@
+@import '../../assets/scss/base/_variables.scss';
+.form {
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  border: 2px solid $main;
+  padding: 25px;
+  border-radius: 12px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
+
+  &__group {
+    width: 80%;
+    margin: 0 auto 20px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__title {
+    font-size: 28px;
+    font-weight: 500;
+    color: $main;
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid $secondary;
+    border-radius: 12px;
+
+    @media (max-width: 768px) {
+      padding: 8px;
+    }
+
+    &_error {
+      border: 2px solid $error;
+    }
+  }
+
+  &__label {
+    font-size: 16px;
+    text-align: left;
+    color: $main;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  &__message-error {
+    color: $error;
+    display: block;
+    text-align: left;
+    height: 20px;
+  }
+
+  &__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: transparent;
+
+    &:after, &:before {
+      content: '';
+      border-top: 2px solid $main;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      transform: rotate(45deg);
+    }
+
+    &:before {
+      transform: rotate(-45deg);
+    }
+  }
+}

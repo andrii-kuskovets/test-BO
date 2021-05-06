@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "title": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "category": "fiction",
+      "isbn": "43242432",
+      "id": 1
+    },
+    {
+      "title": "The Four Winds",
+      "author": "Kristin Hannah",
+      "category": "fiction",
+      "isbn": "12345",
+      "id": 2
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "novel",
+      "isbn": "432543",
+      "id": 3
+    },
+    {
+      "title": "Romeo and Juliet",
+      "author": "William Shakespeare",
+      "category": "drama",
+      "isbn": "6546456",
+      "id": 4
+    }
+  ]
+}

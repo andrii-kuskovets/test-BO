@@ -1,0 +1,31 @@
+@import '../../assets/scss/base/_variables.scss';
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255,255,255,0.8);
+
+  &__wrapper {
+	width: 320px;
+    background-color: #fff;
+    text-align: center;
+    border: 2px solid $main;
+    padding: 15px;
+  }
+
+  &__title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: space-around;
+  }
+}
