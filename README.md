@@ -1,7 +1,7 @@
-#Install JSON Server
-npm install -g json-server
-#Start JSON Server
-json-server --watch data/db.json
+Install JSON Server
+###npm install -g json-server
+Start JSON Server
+###json-server --watch data/db.json
 
 In the project directory, you can run:
 
